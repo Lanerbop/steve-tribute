@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: 	#bae1ff;
+  padding: 1rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ffdfba;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem
+}
+
+header p {
+  font-size: 12px
+}
+
+figure {
+  text-align: center;
+}
+
+
+.content {
+  background-color: #baffc9;
+  padding: 8px;
+}
+
+#tribute-info {
+  text-align: center;
+  font-weight: 400;
+  padding: 2rem 0;
+}
+
+ul {
+  padding-bottom: 1rem;
+}
+
+li {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  list-style: square;
+}
+
